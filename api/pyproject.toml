@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "seabee-back"
+version = "0.1.0"
+description = ""
+authors = ["RmStorm <roaldstorm@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.63.0"
+asyncpg = "^0.21.0"
+uvicorn = "^0.13.3"
+starlette-prometheus = "^0.7.0"
+python-dotenv = "^0.15.0"
+nivacloud-logging = "^0.8.14"
+minio = "^7.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
